@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/aeshgi/Documents/Amin/RASA/practice_version3/models/current/nlu/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/Users/aeshgi/Documents/Amin/RASA/practice_version3/models/current/nlu/intent_classifier_tensorflow_embedding.ckpt"

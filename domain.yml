@@ -1,0 +1,49 @@
+actions:
+- utter_troubleshoot_ap
+- utter_greet
+- utter_did_that_help
+- utter_goodbye
+- action_return_apname
+- utter_default
+- utter_gratitude
+- utter_ask_again
+- utter_ask_date
+
+intents:
+- count-client
+- troubleshoot_ap
+- goodbye
+- greet
+- thanks
+- affirm
+- deny
+
+entities:
+- ap
+- wlan
+
+slots:
+  wlan:
+    type: unfeaturized
+  ap:
+    type: unfeaturized
+
+templates:
+  utter_greet:
+  - text: "Hey! What can I do for you?"
+  utter_did_that_help:
+  - text: "Did that help you?"
+  - text: "I hope that solved your query"
+  utter_goodbye:
+  - text: "Bye"
+  utter_default:
+  - text: "I am sorry, I didn't get that. Could you please repeat your query?"
+  - text: "I am not sure what you are aiming for."
+  utter_gratitude:
+  - text: "Glad that I could be of help to you!\nBye"
+  utter_ask_again:
+  - text: "Okay! Let's start again, please tell me what do you need?"
+  utter_troubleshoot_ap:
+  - text: "For ap troubleshooting, check out this link: https://www.mist.com/documentation/troubleshooting-ap-disconnect-issues/"
+  utter_ask_date:
+  - text: "For what time span you would like to check the logs for wlan {wlan}"

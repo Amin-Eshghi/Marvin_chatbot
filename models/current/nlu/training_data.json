@@ -1,0 +1,305 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "goodbye",
+        "text": "Bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "See you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye bot"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye friend"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you so much"
+      },
+      {
+        "intent": "affirm",
+        "text": "y"
+      },
+      {
+        "intent": "affirm",
+        "text": "Y"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "absolutely"
+      },
+      {
+        "intent": "deny",
+        "text": "no, no, no"
+      },
+      {
+        "intent": "deny",
+        "text": "No"
+      },
+      {
+        "intent": "deny",
+        "text": "Did not help"
+      },
+      {
+        "intent": "deny",
+        "text": "Didn't help"
+      },
+      {
+        "intent": "deny",
+        "text": "Not really"
+      },
+      {
+        "intent": "deny",
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "text": "never"
+      },
+      {
+        "intent": "deny",
+        "text": "I don't think so"
+      },
+      {
+        "intent": "deny",
+        "text": "I don't think so"
+      },
+      {
+        "intent": "deny",
+        "text": "not"
+      },
+      {
+        "intent": "deny",
+        "text": "did not"
+      },
+      {
+        "intent": "troubleshoot_ap",
+        "text": "troubleshoot ap"
+      },
+      {
+        "intent": "troubleshoot_ap",
+        "text": "how is ap doing?"
+      },
+      {
+        "intent": "troubleshoot_ap",
+        "text": "why is ap disconnected?"
+      },
+      {
+        "intent": "troubleshoot_ap",
+        "text": "why is ap down?"
+      },
+      {
+        "intent": "troubleshoot_ap",
+        "text": "issues with ap"
+      },
+      {
+        "intent": "troubleshoot_ap",
+        "text": "what's wrong with ap"
+      },
+      {
+        "intent": "troubleshoot_ap",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "value": "LAX49-1-1",
+            "entity": "ap"
+          }
+        ],
+        "text": "Troubleshoot ap LAX49-1-1"
+      },
+      {
+        "intent": "troubleshoot_ap",
+        "entities": [
+          {
+            "start": 10,
+            "end": 24,
+            "value": "cummings-104-1",
+            "entity": "ap"
+          }
+        ],
+        "text": "how is ap cummings-104-1"
+      },
+      {
+        "intent": "troubleshoot_ap",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "WAS9-4-14",
+            "entity": "ap"
+          }
+        ],
+        "text": "how is ap WAS9-4-14"
+      },
+      {
+        "intent": "troubleshoot_ap",
+        "entities": [
+          {
+            "start": 16,
+            "end": 29,
+            "value": "OPB-12th_AP-2",
+            "entity": "ap"
+          }
+        ],
+        "text": "troubleshoot ap OPB-12th_AP-2 during yesterday"
+      },
+      {
+        "intent": "troubleshoot_ap",
+        "entities": [
+          {
+            "start": 10,
+            "end": 22,
+            "value": "5c5b350e066d",
+            "entity": "ap"
+          }
+        ],
+        "text": "how is ap 5c5b350e066d at site store_587"
+      },
+      {
+        "intent": "troubleshoot_ap",
+        "entities": [
+          {
+            "start": 20,
+            "end": 37,
+            "value": "AP_FOR_AUTOMATION",
+            "entity": "ap"
+          }
+        ],
+        "text": "what is wrong at ap AP_FOR_AUTOMATION yesterday"
+      },
+      {
+        "intent": "troubleshoot_ap",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "ap_name",
+            "entity": "ap"
+          }
+        ],
+        "text": "what's wrong with ap ap_name in last 7 days"
+      },
+      {
+        "intent": "count-client",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "testwlan",
+            "entity": "wlan"
+          }
+        ],
+        "text": "how many people on wlan testwlan"
+      },
+      {
+        "intent": "count-client",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "testwlan",
+            "entity": "wlan"
+          }
+        ],
+        "text": "how many users on wlan testwlan"
+      },
+      {
+        "intent": "count-client",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "kitchen",
+            "entity": "wlan"
+          }
+        ],
+        "text": "count users on wlan kitchen"
+      },
+      {
+        "intent": "count-client",
+        "entities": [
+          {
+            "start": 27,
+            "end": 36,
+            "value": "demo_wlan",
+            "entity": "wlan"
+          }
+        ],
+        "text": "how many customers on wlan demo_wlan"
+      },
+      {
+        "intent": "count-client",
+        "entities": [
+          {
+            "start": 27,
+            "end": 35,
+            "value": "live_dem",
+            "entity": "wlan"
+          }
+        ],
+        "text": "how many customers on SSID live_dem"
+      },
+      {
+        "intent": "count-client",
+        "entities": [
+          {
+            "start": 24,
+            "end": 55,
+            "value": "Nidtest_stag_DO_NOT_EDIT_DELETE",
+            "entity": "wlan"
+          }
+        ],
+        "text": "count clients with wlan Nidtest_stag_DO_NOT_EDIT_DELETE"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

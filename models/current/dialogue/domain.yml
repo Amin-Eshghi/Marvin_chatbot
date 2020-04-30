@@ -1,0 +1,61 @@
+%YAML 1.1
+---
+actions:
+- utter_troubleshoot_ap
+- utter_greet
+- utter_did_that_help
+- utter_goodbye
+- action_return_apname
+- utter_default
+- utter_gratitude
+- utter_ask_again
+- utter_ask_date
+config:
+  store_entities_as_slots: true
+entities:
+- ap
+- wlan
+forms: []
+intents:
+- count-client:
+    use_entities: true
+- troubleshoot_ap:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- greet:
+    use_entities: true
+- thanks:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+slots:
+  ap:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  wlan:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+templates:
+  utter_ask_again:
+  - text: Okay! Let's start again, please tell me what do you need?
+  utter_ask_date:
+  - text: For what time span you would like to check the logs for wlan {wlan}
+  utter_default:
+  - text: I am sorry, I didn't get that. Could you please repeat your query?
+  - text: I am not sure what you are aiming for.
+  utter_did_that_help:
+  - text: Did that help you?
+  - text: I hope that solved your query
+  utter_goodbye:
+  - text: Bye
+  utter_gratitude:
+  - text: "Glad that I could be of help to you!\nBye"
+  utter_greet:
+  - text: Hey! What can I do for you?
+  utter_troubleshoot_ap:
+  - text: 'For ap troubleshooting, check out this link: https://www.mist.com/documentation/troubleshooting-ap-disconnect-issues/'
